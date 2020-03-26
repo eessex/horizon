@@ -1,7 +1,5 @@
 FROM ruby:2.6.0-alpine
 ENV LANG C.UTF-8
-ENV PORT 3000
-EXPOSE 3000
 
 WORKDIR /app
 
