@@ -35,6 +35,8 @@ spec:
           ports:
             - name: horizon-http
               containerPort: 8080
+            - containerPort: 3000
+            - containerPort: 8443
           resources:
             requests:
               cpu: 100m
