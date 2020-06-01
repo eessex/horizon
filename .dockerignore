@@ -18,7 +18,11 @@ README.md
 capybara-*.html
 .rspec
 log
-tmp
+
+tmp/*
+tmp/pids/*
+!tmp/pids/server.pid
+
 db/*.sqlite3
 db/*.sqlite3-journal
 public/system
