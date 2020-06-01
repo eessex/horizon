@@ -9,8 +9,6 @@ gem 'rails', '~> 6.0.3'
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -40,6 +38,7 @@ gem 'activeadmin' # manage models
 gem 'active_admin_datetimepicker'
 gem 'redis' # actioncable adapter
 gem "octokit", "~> 4.0" # talk to github api
+gem 'webpacker', '~> 5.x'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
