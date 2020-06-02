@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "app/javascript",
+    "allowSyntheticDefaultImports": true,
+    "module": "es6",
+    "lib": ["es6", "dom"],
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist",
+    "pretty": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2016",
+    "jsx": "react"
+  },
+  "exclude": ["**/*.spec.ts", "node_modules", "public"]
+}
