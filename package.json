@@ -4,17 +4,25 @@
   "dependencies": {
     "@artsy/palette": "^9.12.0",
     "@babel/preset-react": "^7.10.1",
+    "@rails/actioncable": "^6.0.3-1",
+    "@rails/activestorage": "^6.0.3-1",
+    "@rails/ujs": "^6.0.3-1",
     "@rails/webpacker": "5.1.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "core-js": "3",
+    "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "turbolinks": "^5.2.0"
   },
   "devDependencies": {
+    "@types/actioncable": "^5.2.3",
+    "@types/jquery": "^3.3.38",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
     "@types/styled-components": "^5.1.0",
+    "@types/webpack-env": "^1.15.2",
     "ts-loader": "^7.0.5",
     "typescript": "^3.9.3",
     "webpack-dev-server": "^3.11.0"
