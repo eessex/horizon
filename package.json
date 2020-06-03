@@ -2,7 +2,9 @@
   "name": "horizon",
   "private": true,
   "dependencies": {
+    "@activeadmin/activeadmin": "^2.7.0",
     "@artsy/palette": "^9.12.0",
+    "@babel/core": "^7.10.2",
     "@babel/preset-react": "^7.10.1",
     "@rails/actioncable": "^6.0.3-1",
     "@rails/activestorage": "^6.0.3-1",
@@ -11,8 +13,10 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "core-js": "3",
     "jquery": "^3.5.1",
+    "jquery-ujs": "^1.2.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "sass-loader": "^8.0.2",
     "styled-components": "^5.1.1",
     "turbolinks": "^5.2.0"
   },

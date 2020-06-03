@@ -1,4 +1,5 @@
 import consumer from "./consumer";
+import $ from "jquery";
 
 consumer.subscriptions.create(
   {

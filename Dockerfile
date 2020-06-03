@@ -27,7 +27,7 @@ RUN gem install bundler -v '<2' && \
 # Set up gems
 COPY Gemfile Gemfile.lock .ruby-version \
     package.json yarn.lock ./
-RUN bundle install -j4 && yarn install --frozen-lockfile
+RUN bundle install -j4 && yarn install
 
 
 # Create directories for Puma/Nginx & give deploy user access
@@ -37,10 +37,13 @@ RUN mkdir -p /shared/pids /shared/sockets && \
 # Copy application code
 COPY . ./
 
+RUN yarn add node-sass@4.13.1 --force
+
 # Precompile Rails assets
 RUN bundle exec rake assets:precompile && \
     chown -R deploy:deploy ./
 
+RUN yarn cache clean
 # Switch to less privelidged user
 USER deploy
 

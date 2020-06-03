@@ -2,6 +2,15 @@
 # yarn lockfile v1
 
 
+"@activeadmin/activeadmin@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@activeadmin/activeadmin/-/activeadmin-2.7.0.tgz#5424a10490f9c3433044b445718e2ac7afcc8c06"
+  integrity sha512-OOYWvI+XTjIV3K5m644K4Lc64U5ao7Hcr7cNR6K8gtncHJRSQwiw5GsXR5kdHprSlZUro0h+u4zJqHhaAdU9ZQ==
+  dependencies:
+    jquery "^3.4.1"
+    jquery-ui "^1.12.1"
+    jquery-ujs "^1.2.2"
+
 "@artsy/palette@^9.12.0":
   version "9.12.0"
   resolved "https://registry.yarnpkg.com/@artsy/palette/-/palette-9.12.0.tgz#cfcdfee6fca0be3795d9c399cb5df3047da9f874"
@@ -38,7 +47,7 @@
     invariant "^2.2.4"
     semver "^5.5.0"
 
-"@babel/core@^7.9.0":
+"@babel/core@^7.10.2", "@babel/core@^7.9.0":
   version "7.10.2"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.10.2.tgz#bd6786046668a925ac2bd2fd95b579b92a23b36a"
   integrity sha512-KQmV9yguEjQsXqyOUGKjS4+3K8/DlOCE2pZcq4augdQmtTy5iv5EHtmMSJ7V4c1BIPjuwtZYqYLCq9Ga+hGBRQ==
@@ -4402,7 +4411,19 @@ jest-worker@^25.4.0:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
-jquery@^3.5.1:
+jquery-ui@^1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/jquery-ui/-/jquery-ui-1.12.1.tgz#bcb4045c8dd0539c134bc1488cdd3e768a7a9e51"
+  integrity sha1-vLQEXI3QU5wTS8FIjN0+dop6nlE=
+
+jquery-ujs@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/jquery-ujs/-/jquery-ujs-1.2.2.tgz#6a8ef1020e6b6dda385b90a4bddc128c21c56397"
+  integrity sha1-ao7xAg5rbdo4W5CkvdwSjCHFY5c=
+  dependencies:
+    jquery ">=1.8.0"
+
+jquery@>=1.8.0, jquery@^3.4.1, jquery@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
   integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
