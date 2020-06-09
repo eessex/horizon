@@ -1,0 +1,14 @@
+<%= javascript_pack_tag 'project', 'data-turbolinks-track': 'reload' %>
+<%= content_tag :div,
+  id: "project_data",
+  data: @project.to_json(
+    methods: [
+    :ordered_stages,
+    :is_fully_released,
+    :compared_stages,
+    :deploy_blocks,
+    :git_remote,
+    :severity
+  ]) do %>
+<% end %>
+<div id="react-body"></div>
